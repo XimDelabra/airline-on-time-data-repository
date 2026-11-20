@@ -1,0 +1,348 @@
+{
+  "cambio": "Se añadieron DayofMonth, ArrivalHour y CRSElapsedTime; mismos algoritmos, parámetros, vuelos y particiones que V1.",
+  "nota": "Comparación exploratoria; las decisiones siguientes se tomarán con octubre, no buscando maximizar el resultado de prueba.",
+  "modelos": [
+    {
+      "problema": "retrasos",
+      "algoritmo": "regresion_logistica",
+      "variable_objetivo": "ArrDel15",
+      "variables_entrada": [
+        "Reporting_Airline",
+        "Origin",
+        "Dest",
+        "Month",
+        "DayOfWeek",
+        "DepartureHour",
+        "Distance",
+        "DayofMonth",
+        "ArrivalHour",
+        "CRSElapsedTime"
+      ],
+      "validacion": {
+        "registros": 11844,
+        "positivos_reales": 1659,
+        "accuracy": 0.5558088483620398,
+        "balanced_accuracy": 0.5898466968674458,
+        "precision": 0.18491952414275717,
+        "recall": 0.6371308016877637,
+        "f1": 0.28664406779661017,
+        "matriz_confusion": [
+          [
+            5526,
+            4659
+          ],
+          [
+            602,
+            1057
+          ]
+        ]
+      },
+      "prueba": {
+        "registros": 23826,
+        "positivos_reales": 4323,
+        "accuracy": 0.5516242760010073,
+        "balanced_accuracy": 0.5717290313136401,
+        "precision": 0.22529371112646857,
+        "recall": 0.6032847559565117,
+        "f1": 0.3280709478583559,
+        "matriz_confusion": [
+          [
+            10535,
+            8968
+          ],
+          [
+            1715,
+            2608
+          ]
+        ]
+      },
+      "f1_v1_validacion": 0.2868311093139237,
+      "f1_v1_prueba": 0.3261587379234438
+    },
+    {
+      "problema": "retrasos",
+      "algoritmo": "arbol_decision",
+      "variable_objetivo": "ArrDel15",
+      "variables_entrada": [
+        "Reporting_Airline",
+        "Origin",
+        "Dest",
+        "Month",
+        "DayOfWeek",
+        "DepartureHour",
+        "Distance",
+        "DayofMonth",
+        "ArrivalHour",
+        "CRSElapsedTime"
+      ],
+      "validacion": {
+        "registros": 11844,
+        "positivos_reales": 1659,
+        "accuracy": 0.7017055048969942,
+        "balanced_accuracy": 0.5349061352323783,
+        "precision": 0.17465277777777777,
+        "recall": 0.30319469559975887,
+        "f1": 0.22163472130425205,
+        "matriz_confusion": [
+          [
+            7808,
+            2377
+          ],
+          [
+            1156,
+            503
+          ]
+        ]
+      },
+      "prueba": {
+        "registros": 23826,
+        "positivos_reales": 4323,
+        "accuracy": 0.6826995718962477,
+        "balanced_accuracy": 0.545566096114397,
+        "precision": 0.2343673067454456,
+        "recall": 0.3303261623872311,
+        "f1": 0.27419354838709675,
+        "matriz_confusion": [
+          [
+            14838,
+            4665
+          ],
+          [
+            2895,
+            1428
+          ]
+        ]
+      },
+      "f1_v1_validacion": 0.27367636092468306,
+      "f1_v1_prueba": 0.30451222586337284
+    },
+    {
+      "problema": "cancelaciones",
+      "algoritmo": "regresion_logistica",
+      "variable_objetivo": "Cancelled",
+      "variables_entrada": [
+        "Reporting_Airline",
+        "Origin",
+        "Dest",
+        "Month",
+        "DayOfWeek",
+        "DepartureHour",
+        "Distance",
+        "DayofMonth",
+        "ArrivalHour",
+        "CRSElapsedTime"
+      ],
+      "validacion": {
+        "registros": 12000,
+        "positivos_reales": 144,
+        "accuracy": 0.6595,
+        "balanced_accuracy": 0.5292678812415654,
+        "precision": 0.014053254437869823,
+        "recall": 0.3958333333333333,
+        "f1": 0.027142857142857142,
+        "matriz_confusion": [
+          [
+            7857,
+            3999
+          ],
+          [
+            87,
+            57
+          ]
+        ]
+      },
+      "prueba": {
+        "registros": 24000,
+        "positivos_reales": 124,
+        "accuracy": 0.6692083333333333,
+        "balanced_accuracy": 0.5088285442528332,
+        "precision": 0.005442349069738008,
+        "recall": 0.3467741935483871,
+        "f1": 0.010716510903426792,
+        "matriz_confusion": [
+          [
+            16018,
+            7858
+          ],
+          [
+            81,
+            43
+          ]
+        ]
+      },
+      "f1_v1_validacion": 0.02608695652173913,
+      "f1_v1_prueba": 0.01162190082644628
+    },
+    {
+      "problema": "cancelaciones",
+      "algoritmo": "arbol_decision",
+      "variable_objetivo": "Cancelled",
+      "variables_entrada": [
+        "Reporting_Airline",
+        "Origin",
+        "Dest",
+        "Month",
+        "DayOfWeek",
+        "DepartureHour",
+        "Distance",
+        "DayofMonth",
+        "ArrivalHour",
+        "CRSElapsedTime"
+      ],
+      "validacion": {
+        "registros": 12000,
+        "positivos_reales": 144,
+        "accuracy": 0.8714166666666666,
+        "balanced_accuracy": 0.4821609311740891,
+        "precision": 0.008432888264230498,
+        "recall": 0.08333333333333333,
+        "f1": 0.015315890236119975,
+        "matriz_confusion": [
+          [
+            10445,
+            1411
+          ],
+          [
+            132,
+            12
+          ]
+        ]
+      },
+      "prueba": {
+        "registros": 24000,
+        "positivos_reales": 124,
+        "accuracy": 0.8715,
+        "balanced_accuracy": 0.4981828155145672,
+        "precision": 0.005016722408026756,
+        "recall": 0.12096774193548387,
+        "f1": 0.009633911368015413,
+        "matriz_confusion": [
+          [
+            20901,
+            2975
+          ],
+          [
+            109,
+            15
+          ]
+        ]
+      },
+      "f1_v1_validacion": 0.035355564483728404,
+      "f1_v1_prueba": 0.015444015444015444
+    },
+    {
+      "problema": "desvios",
+      "algoritmo": "regresion_logistica",
+      "variable_objetivo": "Diverted",
+      "variables_entrada": [
+        "Reporting_Airline",
+        "Origin",
+        "Dest",
+        "Month",
+        "DayOfWeek",
+        "DepartureHour",
+        "Distance",
+        "DayofMonth",
+        "ArrivalHour",
+        "CRSElapsedTime"
+      ],
+      "validacion": {
+        "registros": 12000,
+        "positivos_reales": 12,
+        "accuracy": 0.6291666666666667,
+        "balanced_accuracy": 0.564647981314648,
+        "precision": 0.001348314606741573,
+        "recall": 0.5,
+        "f1": 0.002689376961004034,
+        "matriz_confusion": [
+          [
+            7544,
+            4444
+          ],
+          [
+            6,
+            6
+          ]
+        ]
+      },
+      "prueba": {
+        "registros": 24000,
+        "positivos_reales": 50,
+        "accuracy": 0.5934583333333333,
+        "balanced_accuracy": 0.447035490605428,
+        "precision": 0.001540515559207148,
+        "recall": 0.3,
+        "f1": 0.0030652906917339327,
+        "matriz_confusion": [
+          [
+            14228,
+            9722
+          ],
+          [
+            35,
+            15
+          ]
+        ]
+      },
+      "f1_v1_validacion": 0.0026172300981461287,
+      "f1_v1_prueba": 0.003052192491606471
+    },
+    {
+      "problema": "desvios",
+      "algoritmo": "arbol_decision",
+      "variable_objetivo": "Diverted",
+      "variables_entrada": [
+        "Reporting_Airline",
+        "Origin",
+        "Dest",
+        "Month",
+        "DayOfWeek",
+        "DepartureHour",
+        "Distance",
+        "DayofMonth",
+        "ArrivalHour",
+        "CRSElapsedTime"
+      ],
+      "validacion": {
+        "registros": 12000,
+        "positivos_reales": 12,
+        "accuracy": 0.7048333333333333,
+        "balanced_accuracy": 0.4776443109776443,
+        "precision": 0.0008484162895927602,
+        "recall": 0.25,
+        "f1": 0.0016910935738444193,
+        "matriz_confusion": [
+          [
+            8455,
+            3533
+          ],
+          [
+            9,
+            3
+          ]
+        ]
+      },
+      "prueba": {
+        "registros": 24000,
+        "positivos_reales": 50,
+        "accuracy": 0.693375,
+        "balanced_accuracy": 0.527035490605428,
+        "precision": 0.002450646698434309,
+        "recall": 0.36,
+        "f1": 0.00486815415821501,
+        "matriz_confusion": [
+          [
+            16623,
+            7327
+          ],
+          [
+            32,
+            18
+          ]
+        ]
+      },
+      "f1_v1_validacion": 0.003389830508474576,
+      "f1_v1_prueba": 0.002987056090275473
+    }
+  ]
+}

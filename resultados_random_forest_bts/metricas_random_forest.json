@@ -1,0 +1,203 @@
+{
+  "objetivo_experimento": "Comparar Random Forest con los dos algoritmos V1, manteniendo muestra y variables originales.",
+  "periodos": {
+    "entrenamiento": "enero-septiembre 2024",
+    "validacion": "octubre 2024",
+    "prueba": "noviembre-diciembre 2024"
+  },
+  "advertencia": "No seleccionar nuevas configuraciones observando el rendimiento de prueba.",
+  "modelos": [
+    {
+      "problema": "retrasos",
+      "algoritmo": "random_forest",
+      "configuracion": {
+        "n_estimators": 120,
+        "max_depth": 14,
+        "min_samples_leaf": 20,
+        "class_weight": "balanced_subsample",
+        "random_state": 42
+      },
+      "variables_entrada": [
+        "Reporting_Airline",
+        "Origin",
+        "Dest",
+        "Month",
+        "DayOfWeek",
+        "DepartureHour",
+        "Distance"
+      ],
+      "validacion": {
+        "registros": 11844,
+        "positivos_reales": 1659,
+        "predicciones_positivas": 3957,
+        "accuracy": 0.6663289429246876,
+        "balanced_accuracy": 0.5973415857273354,
+        "precision": 0.2102602982057114,
+        "recall": 0.5015069318866787,
+        "f1": 0.2962962962962963,
+        "matriz_confusion": [
+          [
+            7060,
+            3125
+          ],
+          [
+            827,
+            832
+          ]
+        ]
+      },
+      "prueba": {
+        "registros": 23826,
+        "positivos_reales": 4323,
+        "predicciones_positivas": 7911,
+        "accuracy": 0.6466884915638378,
+        "balanced_accuracy": 0.5667806831832096,
+        "precision": 0.24118316268486917,
+        "recall": 0.44136016655100624,
+        "f1": 0.31191760666993623,
+        "matriz_confusion": [
+          [
+            13500,
+            6003
+          ],
+          [
+            2415,
+            1908
+          ]
+        ]
+      },
+      "mejor_v1_en_validacion": {
+        "algoritmo": "regresion_logistica",
+        "f1": 0.2868311093139237
+      }
+    },
+    {
+      "problema": "cancelaciones",
+      "algoritmo": "random_forest",
+      "configuracion": {
+        "n_estimators": 120,
+        "max_depth": 14,
+        "min_samples_leaf": 20,
+        "class_weight": "balanced_subsample",
+        "random_state": 42
+      },
+      "variables_entrada": [
+        "Reporting_Airline",
+        "Origin",
+        "Dest",
+        "Month",
+        "DayOfWeek",
+        "DepartureHour",
+        "Distance"
+      ],
+      "validacion": {
+        "registros": 12000,
+        "positivos_reales": 144,
+        "predicciones_positivas": 2886,
+        "accuracy": 0.753,
+        "balanced_accuracy": 0.49426450742240213,
+        "precision": 0.011434511434511435,
+        "recall": 0.22916666666666666,
+        "f1": 0.02178217821782178,
+        "matriz_confusion": [
+          [
+            9003,
+            2853
+          ],
+          [
+            111,
+            33
+          ]
+        ]
+      },
+      "prueba": {
+        "registros": 24000,
+        "positivos_reales": 124,
+        "predicciones_positivas": 5768,
+        "accuracy": 0.7573333333333333,
+        "balanced_accuracy": 0.517018034036068,
+        "precision": 0.005894590846047157,
+        "recall": 0.27419354838709675,
+        "f1": 0.011541072640868975,
+        "matriz_confusion": [
+          [
+            18142,
+            5734
+          ],
+          [
+            90,
+            34
+          ]
+        ]
+      },
+      "mejor_v1_en_validacion": {
+        "algoritmo": "arbol_decision",
+        "f1": 0.035355564483728404
+      }
+    },
+    {
+      "problema": "desvios",
+      "algoritmo": "random_forest",
+      "configuracion": {
+        "n_estimators": 120,
+        "max_depth": 14,
+        "min_samples_leaf": 20,
+        "class_weight": "balanced_subsample",
+        "random_state": 42
+      },
+      "variables_entrada": [
+        "Reporting_Airline",
+        "Origin",
+        "Dest",
+        "Month",
+        "DayOfWeek",
+        "DepartureHour",
+        "Distance"
+      ],
+      "validacion": {
+        "registros": 12000,
+        "positivos_reales": 12,
+        "predicciones_positivas": 1602,
+        "accuracy": 0.8658333333333333,
+        "balanced_accuracy": 0.5165999332665999,
+        "precision": 0.0012484394506866417,
+        "recall": 0.16666666666666666,
+        "f1": 0.0024783147459727386,
+        "matriz_confusion": [
+          [
+            10388,
+            1600
+          ],
+          [
+            10,
+            2
+          ]
+        ]
+      },
+      "prueba": {
+        "registros": 24000,
+        "positivos_reales": 50,
+        "predicciones_positivas": 3523,
+        "accuracy": 0.8519583333333334,
+        "balanced_accuracy": 0.5266597077244259,
+        "precision": 0.002838489923360772,
+        "recall": 0.2,
+        "f1": 0.00559753708368318,
+        "matriz_confusion": [
+          [
+            20437,
+            3513
+          ],
+          [
+            40,
+            10
+          ]
+        ]
+      },
+      "mejor_v1_en_validacion": {
+        "algoritmo": "arbol_decision",
+        "f1": 0.003389830508474576
+      }
+    }
+  ]
+}

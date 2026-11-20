@@ -1,0 +1,483 @@
+{
+  "periodos": {
+    "entrenamiento": "2023-2024",
+    "validacion": "enero-junio de 2025",
+    "prueba_no_utilizada": "julio-diciembre de 2025"
+  },
+  "muestreo": "reservorio aleatorio independiente de hasta 12500 vuelos por mes",
+  "semilla": 2026,
+  "total_muestreado": 450000,
+  "total_limpio": 450000,
+  "descartes": {},
+  "detalle": [
+    {
+      "anio": 2023,
+      "mes": 1,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_1.zip",
+      "originales": 538837,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2716,
+        "Cancelled": 227,
+        "Diverted": 31
+      }
+    },
+    {
+      "anio": 2023,
+      "mes": 2,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_2.zip",
+      "originales": 502749,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2323,
+        "Cancelled": 239,
+        "Diverted": 25
+      }
+    },
+    {
+      "anio": 2023,
+      "mes": 3,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_3.zip",
+      "originales": 580322,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2911,
+        "Cancelled": 170,
+        "Diverted": 33
+      }
+    },
+    {
+      "anio": 2023,
+      "mes": 4,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_4.zip",
+      "originales": 561441,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2846,
+        "Cancelled": 190,
+        "Diverted": 30
+      }
+    },
+    {
+      "anio": 2023,
+      "mes": 5,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_5.zip",
+      "originales": 579958,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2218,
+        "Diverted": 26,
+        "Cancelled": 70
+      }
+    },
+    {
+      "anio": 2023,
+      "mes": 6,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_6.zip",
+      "originales": 577262,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 3266,
+        "Cancelled": 264,
+        "Diverted": 36
+      }
+    },
+    {
+      "anio": 2023,
+      "mes": 7,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_7.zip",
+      "originales": 601866,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 3445,
+        "Diverted": 40,
+        "Cancelled": 283
+      }
+    },
+    {
+      "anio": 2023,
+      "mes": 8,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_8.zip",
+      "originales": 602987,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "Cancelled": 207,
+        "ArrDel15": 2709,
+        "Diverted": 32
+      }
+    },
+    {
+      "anio": 2023,
+      "mes": 9,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_9.zip",
+      "originales": 569338,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2310,
+        "Cancelled": 150,
+        "Diverted": 34
+      }
+    },
+    {
+      "anio": 2023,
+      "mes": 10,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_10.zip",
+      "originales": 598968,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 1936,
+        "Cancelled": 36,
+        "Diverted": 22
+      }
+    },
+    {
+      "anio": 2023,
+      "mes": 11,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_11.zip",
+      "originales": 563777,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 1731,
+        "Cancelled": 17,
+        "Diverted": 8
+      }
+    },
+    {
+      "anio": 2023,
+      "mes": 12,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2023_12.zip",
+      "originales": 570394,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 1987,
+        "Cancelled": 43,
+        "Diverted": 26
+      }
+    },
+    {
+      "anio": 2024,
+      "mes": 1,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_1.zip",
+      "originales": 547271,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2938,
+        "Cancelled": 494,
+        "Diverted": 34
+      }
+    },
+    {
+      "anio": 2024,
+      "mes": 2,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_2.zip",
+      "originales": 519221,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2001,
+        "Diverted": 26,
+        "Cancelled": 74
+      }
+    },
+    {
+      "anio": 2024,
+      "mes": 3,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_3.zip",
+      "originales": 591767,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2612,
+        "Diverted": 32,
+        "Cancelled": 108
+      }
+    },
+    {
+      "anio": 2024,
+      "mes": 4,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_4.zip",
+      "originales": 582185,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2392,
+        "Cancelled": 73,
+        "Diverted": 28
+      }
+    },
+    {
+      "anio": 2024,
+      "mes": 5,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_5.zip",
+      "originales": 609743,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 3340,
+        "Cancelled": 186,
+        "Diverted": 41
+      }
+    },
+    {
+      "anio": 2024,
+      "mes": 6,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_6.zip",
+      "originales": 611132,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 3066,
+        "Diverted": 45,
+        "Cancelled": 191
+      }
+    },
+    {
+      "anio": 2024,
+      "mes": 7,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_7.zip",
+      "originales": 634613,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "Cancelled": 346,
+        "ArrDel15": 3627,
+        "Diverted": 41
+      }
+    },
+    {
+      "anio": 2024,
+      "mes": 8,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_8.zip",
+      "originales": 619025,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2910,
+        "Cancelled": 272,
+        "Diverted": 45
+      }
+    },
+    {
+      "anio": 2024,
+      "mes": 9,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_9.zip",
+      "originales": 582622,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 1890,
+        "Cancelled": 69,
+        "Diverted": 18
+      }
+    },
+    {
+      "anio": 2024,
+      "mes": 10,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_10.zip",
+      "originales": 615497,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 1660,
+        "Cancelled": 122,
+        "Diverted": 15
+      }
+    },
+    {
+      "anio": 2024,
+      "mes": 11,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_11.zip",
+      "originales": 575404,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 1866,
+        "Cancelled": 60,
+        "Diverted": 14
+      }
+    },
+    {
+      "anio": 2024,
+      "mes": 12,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_12.zip",
+      "originales": 590581,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2677,
+        "Cancelled": 83,
+        "Diverted": 38
+      }
+    },
+    {
+      "anio": 2025,
+      "mes": 1,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_1.zip",
+      "originales": 539747,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2222,
+        "Cancelled": 356,
+        "Diverted": 27
+      }
+    },
+    {
+      "anio": 2025,
+      "mes": 2,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_2.zip",
+      "originales": 504884,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2607,
+        "Cancelled": 170,
+        "Diverted": 20
+      }
+    },
+    {
+      "anio": 2025,
+      "mes": 3,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_3.zip",
+      "originales": 600872,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2425,
+        "Cancelled": 155,
+        "Diverted": 29
+      }
+    },
+    {
+      "anio": 2025,
+      "mes": 4,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_4.zip",
+      "originales": 583950,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2476,
+        "Diverted": 27,
+        "Cancelled": 98
+      }
+    },
+    {
+      "anio": 2025,
+      "mes": 5,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_5.zip",
+      "originales": 605648,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2824,
+        "Cancelled": 147,
+        "Diverted": 39
+      }
+    },
+    {
+      "anio": 2025,
+      "mes": 6,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_6.zip",
+      "originales": 611575,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 3435,
+        "Diverted": 46,
+        "Cancelled": 188
+      }
+    },
+    {
+      "anio": 2025,
+      "mes": 7,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_7.zip",
+      "originales": 631428,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 3511,
+        "Cancelled": 319,
+        "Diverted": 66
+      }
+    },
+    {
+      "anio": 2025,
+      "mes": 8,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_8.zip",
+      "originales": 602378,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2699,
+        "Diverted": 46,
+        "Cancelled": 147
+      }
+    },
+    {
+      "anio": 2025,
+      "mes": 9,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_9.zip",
+      "originales": 562439,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2107,
+        "Diverted": 23,
+        "Cancelled": 63
+      }
+    },
+    {
+      "anio": 2025,
+      "mes": 10,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_10.zip",
+      "originales": 605844,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "Diverted": 29,
+        "ArrDel15": 2500,
+        "Cancelled": 54
+      }
+    },
+    {
+      "anio": 2025,
+      "mes": 11,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_11.zip",
+      "originales": 570550,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 2528,
+        "Cancelled": 297,
+        "Diverted": 24
+      }
+    },
+    {
+      "anio": 2025,
+      "mes": 12,
+      "zip": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_12.zip",
+      "originales": 582304,
+      "muestreados": 12500,
+      "limpios": 12500,
+      "positivos": {
+        "ArrDel15": 3385,
+        "Cancelled": 177,
+        "Diverted": 34
+      }
+    }
+  ],
+  "nota": "Este CSV es una muestra de igual tamaño por mes, no todos los vuelos. Los vuelos cancelados/desviados mantienen ArrDel15 vacío."
+}

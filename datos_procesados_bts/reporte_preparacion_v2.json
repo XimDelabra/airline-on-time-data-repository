@@ -1,0 +1,15 @@
+{
+  "metodo": "Mismo muestreo aleatorio reproducible de 12.000 por mes que versión 1",
+  "verificacion_mismas_filas": true,
+  "nuevas_columnas": [
+    "CRSArrTime",
+    "CRSElapsedTime",
+    "DayofMonth"
+  ],
+  "conteos": {
+    "seleccionados": 144000,
+    "limpios": 144000
+  },
+  "descartes": {},
+  "nota": "En esta prueba las nuevas columnas deben conocerse antes del vuelo; la duración y los horarios son programados, no reales."
+}

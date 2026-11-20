@@ -1,0 +1,426 @@
+{
+  "metodo": "Elegir umbral por máximo F1 en octubre de 2024; evaluar una sola vez en noviembre y diciembre, sin reentrenar.",
+  "advertencia": "Optimizar F1 no garantiza mejor desempeño en prueba; la baja frecuencia de cancelaciones/desvíos limita la predicción.",
+  "resultados": [
+    {
+      "problema": "retrasos",
+      "algoritmo": "regresion_logistica",
+      "umbral_inicial": 0.5,
+      "umbral_optimizado": 0.525,
+      "validacion_inicial": {
+        "f1": 0.2868311093139237,
+        "precision": 0.18472222222222223,
+        "recall": 0.6413502109704642,
+        "matriz_confusion": [
+          [
+            5489,
+            4696
+          ],
+          [
+            595,
+            1064
+          ]
+        ],
+        "predicciones_positivas": 5760
+      },
+      "validacion_optimizada": {
+        "f1": 0.2899805883231298,
+        "precision": 0.1927352123858674,
+        "recall": 0.5852923447860157,
+        "matriz_confusion": [
+          [
+            6118,
+            4067
+          ],
+          [
+            688,
+            971
+          ]
+        ],
+        "predicciones_positivas": 5038
+      },
+      "prueba_inicial": {
+        "f1": 0.3261587379234438,
+        "precision": 0.22167733355498295,
+        "recall": 0.6169326856349757,
+        "matriz_confusion": [
+          [
+            10139,
+            9364
+          ],
+          [
+            1656,
+            2667
+          ]
+        ],
+        "predicciones_positivas": 12031
+      },
+      "prueba_optimizada": {
+        "f1": 0.321498349390285,
+        "precision": 0.22680608365019012,
+        "recall": 0.5519315290307657,
+        "matriz_confusion": [
+          [
+            11369,
+            8134
+          ],
+          [
+            1937,
+            2386
+          ]
+        ],
+        "predicciones_positivas": 10520
+      }
+    },
+    {
+      "problema": "retrasos",
+      "algoritmo": "arbol_decision",
+      "umbral_inicial": 0.5,
+      "umbral_optimizado": 0.45,
+      "validacion_inicial": {
+        "f1": 0.27367636092468306,
+        "precision": 0.198110661268556,
+        "recall": 0.4424352019288728,
+        "matriz_confusion": [
+          [
+            7214,
+            2971
+          ],
+          [
+            925,
+            734
+          ]
+        ],
+        "predicciones_positivas": 3705
+      },
+      "validacion_optimizada": {
+        "f1": 0.2799799297541395,
+        "precision": 0.19375,
+        "recall": 0.5045207956600362,
+        "matriz_confusion": [
+          [
+            6702,
+            3483
+          ],
+          [
+            822,
+            837
+          ]
+        ],
+        "predicciones_positivas": 4320
+      },
+      "prueba_inicial": {
+        "f1": 0.30451222586337284,
+        "precision": 0.2391132224861441,
+        "recall": 0.41915336571825124,
+        "matriz_confusion": [
+          [
+            13737,
+            5766
+          ],
+          [
+            2511,
+            1812
+          ]
+        ],
+        "predicciones_positivas": 7578
+      },
+      "prueba_optimizada": {
+        "f1": 0.31251903746573256,
+        "precision": 0.2329435804291066,
+        "recall": 0.47467036780013877,
+        "matriz_confusion": [
+          [
+            12746,
+            6757
+          ],
+          [
+            2271,
+            2052
+          ]
+        ],
+        "predicciones_positivas": 8809
+      }
+    },
+    {
+      "problema": "cancelaciones",
+      "algoritmo": "regresion_logistica",
+      "umbral_inicial": 0.5,
+      "umbral_optimizado": 0.425,
+      "validacion_inicial": {
+        "f1": 0.02608695652173913,
+        "precision": 0.013513513513513514,
+        "recall": 0.375,
+        "matriz_confusion": [
+          [
+            7914,
+            3942
+          ],
+          [
+            90,
+            54
+          ]
+        ],
+        "predicciones_positivas": 3996
+      },
+      "validacion_optimizada": {
+        "f1": 0.03137789904502047,
+        "precision": 0.016083916083916083,
+        "recall": 0.6388888888888888,
+        "matriz_confusion": [
+          [
+            6228,
+            5628
+          ],
+          [
+            52,
+            92
+          ]
+        ],
+        "predicciones_positivas": 5720
+      },
+      "prueba_inicial": {
+        "f1": 0.01162190082644628,
+        "precision": 0.005905511811023622,
+        "recall": 0.3629032258064516,
+        "matriz_confusion": [
+          [
+            16301,
+            7575
+          ],
+          [
+            79,
+            45
+          ]
+        ],
+        "predicciones_positivas": 7620
+      },
+      "prueba_optimizada": {
+        "f1": 0.010086455331412104,
+        "precision": 0.005100182149362477,
+        "recall": 0.45161290322580644,
+        "matriz_confusion": [
+          [
+            12952,
+            10924
+          ],
+          [
+            68,
+            56
+          ]
+        ],
+        "predicciones_positivas": 10980
+      }
+    },
+    {
+      "problema": "cancelaciones",
+      "algoritmo": "arbol_decision",
+      "umbral_inicial": 0.5,
+      "umbral_optimizado": 0.55,
+      "validacion_inicial": {
+        "f1": 0.035355564483728404,
+        "precision": 0.018763326226012792,
+        "recall": 0.3055555555555556,
+        "matriz_confusion": [
+          [
+            9555,
+            2301
+          ],
+          [
+            100,
+            44
+          ]
+        ],
+        "predicciones_positivas": 2345
+      },
+      "validacion_optimizada": {
+        "f1": 0.038749449581682076,
+        "precision": 0.020686412787964268,
+        "recall": 0.3055555555555556,
+        "matriz_confusion": [
+          [
+            9773,
+            2083
+          ],
+          [
+            100,
+            44
+          ]
+        ],
+        "predicciones_positivas": 2127
+      },
+      "prueba_inicial": {
+        "f1": 0.015444015444015444,
+        "precision": 0.007933010136624064,
+        "recall": 0.2903225806451613,
+        "matriz_confusion": [
+          [
+            19374,
+            4502
+          ],
+          [
+            88,
+            36
+          ]
+        ],
+        "predicciones_positivas": 4538
+      },
+      "prueba_optimizada": {
+        "f1": 0.01600387972841901,
+        "precision": 0.00825,
+        "recall": 0.2661290322580645,
+        "matriz_confusion": [
+          [
+            19909,
+            3967
+          ],
+          [
+            91,
+            33
+          ]
+        ],
+        "predicciones_positivas": 4000
+      }
+    },
+    {
+      "problema": "desvios",
+      "algoritmo": "regresion_logistica",
+      "umbral_inicial": 0.5,
+      "umbral_optimizado": 0.95,
+      "validacion_inicial": {
+        "f1": 0.0026172300981461287,
+        "precision": 0.001312048983162038,
+        "recall": 0.5,
+        "matriz_confusion": [
+          [
+            7421,
+            4567
+          ],
+          [
+            6,
+            6
+          ]
+        ],
+        "predicciones_positivas": 4573
+      },
+      "validacion_optimizada": {
+        "f1": 0.01818181818181818,
+        "precision": 0.01020408163265306,
+        "recall": 0.08333333333333333,
+        "matriz_confusion": [
+          [
+            11891,
+            97
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "predicciones_positivas": 98
+      },
+      "prueba_inicial": {
+        "f1": 0.003052192491606471,
+        "precision": 0.0015338991716944473,
+        "recall": 0.3,
+        "matriz_confusion": [
+          [
+            14186,
+            9764
+          ],
+          [
+            35,
+            15
+          ]
+        ],
+        "predicciones_positivas": 9779
+      },
+      "prueba_optimizada": {
+        "f1": 0.005063291139240506,
+        "precision": 0.002898550724637681,
+        "recall": 0.02,
+        "matriz_confusion": [
+          [
+            23606,
+            344
+          ],
+          [
+            49,
+            1
+          ]
+        ],
+        "predicciones_positivas": 345
+      }
+    },
+    {
+      "problema": "desvios",
+      "algoritmo": "arbol_decision",
+      "umbral_inicial": 0.5,
+      "umbral_optimizado": 0.875,
+      "validacion_inicial": {
+        "f1": 0.003389830508474576,
+        "precision": 0.0017018379850238256,
+        "recall": 0.4166666666666667,
+        "matriz_confusion": [
+          [
+            9055,
+            2933
+          ],
+          [
+            7,
+            5
+          ]
+        ],
+        "predicciones_positivas": 2938
+      },
+      "validacion_optimizada": {
+        "f1": 0.0072992700729927005,
+        "precision": 0.003816793893129771,
+        "recall": 0.08333333333333333,
+        "matriz_confusion": [
+          [
+            11727,
+            261
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "predicciones_positivas": 262
+      },
+      "prueba_inicial": {
+        "f1": 0.002987056090275473,
+        "precision": 0.0015060240963855422,
+        "recall": 0.18,
+        "matriz_confusion": [
+          [
+            17983,
+            5967
+          ],
+          [
+            41,
+            9
+          ]
+        ],
+        "predicciones_positivas": 5976
+      },
+      "prueba_optimizada": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "matriz_confusion": [
+          [
+            23464,
+            486
+          ],
+          [
+            50,
+            0
+          ]
+        ],
+        "predicciones_positivas": 486
+      }
+    }
+  ]
+}

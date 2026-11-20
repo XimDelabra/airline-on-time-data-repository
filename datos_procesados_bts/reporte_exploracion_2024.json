@@ -1,0 +1,261 @@
+{
+  "descripcion": "Muestra exploratoria SIN limpieza ni entrenamiento",
+  "semilla": 42,
+  "maximo_por_archivo": 12000,
+  "columnas": [
+    "FlightDate",
+    "DayOfWeek",
+    "Reporting_Airline",
+    "Origin",
+    "Dest",
+    "CRSDepTime",
+    "Distance",
+    "ArrDel15",
+    "Cancelled",
+    "Diverted"
+  ],
+  "total_originales": 7079061,
+  "total_muestra": 144000,
+  "archivos": [
+    {
+      "archivo": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_1.zip",
+      "filas_originales": 547271,
+      "filas_muestra": 12000,
+      "valores_objetivo": {
+        "ArrDel15": {
+          "0.00": 398960,
+          "1.00": 126410,
+          "VACIO": 21901
+        },
+        "Cancelled": {
+          "0.00": 526882,
+          "1.00": 20389
+        },
+        "Diverted": {
+          "0.00": 545759,
+          "1.00": 1512
+        }
+      }
+    },
+    {
+      "archivo": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_10.zip",
+      "filas_originales": 615497,
+      "filas_muestra": 12000,
+      "valores_objetivo": {
+        "ArrDel15": {
+          "0.00": 528171,
+          "1.00": 80343,
+          "VACIO": 6983
+        },
+        "Cancelled": {
+          "0.00": 609213,
+          "1.00": 6284
+        },
+        "Diverted": {
+          "0.00": 614798,
+          "1.00": 699
+        }
+      }
+    },
+    {
+      "archivo": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_11.zip",
+      "filas_originales": 575404,
+      "filas_muestra": 12000,
+      "valores_objetivo": {
+        "ArrDel15": {
+          "0.00": 488033,
+          "1.00": 83900,
+          "VACIO": 3471
+        },
+        "Cancelled": {
+          "0.00": 572775,
+          "1.00": 2629
+        },
+        "Diverted": {
+          "0.00": 574562,
+          "1.00": 842
+        }
+      }
+    },
+    {
+      "archivo": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_12.zip",
+      "filas_originales": 590581,
+      "filas_muestra": 12000,
+      "valores_objetivo": {
+        "ArrDel15": {
+          "0.00": 461111,
+          "1.00": 123721,
+          "VACIO": 5749
+        },
+        "Cancelled": {
+          "0.00": 586430,
+          "1.00": 4151
+        },
+        "Diverted": {
+          "0.00": 588983,
+          "1.00": 1598
+        }
+      }
+    },
+    {
+      "archivo": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_2.zip",
+      "filas_originales": 519221,
+      "filas_muestra": 12000,
+      "valores_objetivo": {
+        "ArrDel15": {
+          "1.00": 82036,
+          "0.00": 433233,
+          "VACIO": 3952
+        },
+        "Cancelled": {
+          "0.00": 516219,
+          "1.00": 3002
+        },
+        "Diverted": {
+          "0.00": 518271,
+          "1.00": 950
+        }
+      }
+    },
+    {
+      "archivo": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_3.zip",
+      "filas_originales": 591767,
+      "filas_muestra": 12000,
+      "valores_objetivo": {
+        "ArrDel15": {
+          "0.00": 463381,
+          "1.00": 122032,
+          "VACIO": 6354
+        },
+        "Cancelled": {
+          "0.00": 586647,
+          "1.00": 5120
+        },
+        "Diverted": {
+          "0.00": 590533,
+          "1.00": 1234
+        }
+      }
+    },
+    {
+      "archivo": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_4.zip",
+      "filas_originales": 582185,
+      "filas_muestra": 12000,
+      "valores_objetivo": {
+        "ArrDel15": {
+          "0.00": 466967,
+          "1.00": 109948,
+          "VACIO": 5270
+        },
+        "Cancelled": {
+          "0.00": 578150,
+          "1.00": 4035
+        },
+        "Diverted": {
+          "0.00": 580950,
+          "1.00": 1235
+        }
+      }
+    },
+    {
+      "archivo": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_5.zip",
+      "filas_originales": 609743,
+      "filas_muestra": 12000,
+      "valores_objetivo": {
+        "ArrDel15": {
+          "0.00": 440950,
+          "1.00": 158276,
+          "VACIO": 10517
+        },
+        "Cancelled": {
+          "0.00": 601499,
+          "1.00": 8244
+        },
+        "Diverted": {
+          "0.00": 607470,
+          "1.00": 2273
+        }
+      }
+    },
+    {
+      "archivo": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_6.zip",
+      "filas_originales": 611132,
+      "filas_muestra": 12000,
+      "valores_objetivo": {
+        "ArrDel15": {
+          "0.00": 451327,
+          "1.00": 149945,
+          "VACIO": 9860
+        },
+        "Cancelled": {
+          "0.00": 603256,
+          "1.00": 7876
+        },
+        "Diverted": {
+          "0.00": 609148,
+          "1.00": 1984
+        }
+      }
+    },
+    {
+      "archivo": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_7.zip",
+      "filas_originales": 634613,
+      "filas_muestra": 12000,
+      "valores_objetivo": {
+        "ArrDel15": {
+          "0.00": 432073,
+          "1.00": 181865,
+          "VACIO": 20675
+        },
+        "Cancelled": {
+          "0.00": 616241,
+          "1.00": 18372
+        },
+        "Diverted": {
+          "0.00": 632310,
+          "1.00": 2303
+        }
+      }
+    },
+    {
+      "archivo": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_8.zip",
+      "filas_originales": 619025,
+      "filas_muestra": 12000,
+      "valores_objetivo": {
+        "ArrDel15": {
+          "1.00": 141812,
+          "0.00": 462491,
+          "VACIO": 14722
+        },
+        "Cancelled": {
+          "0.00": 606311,
+          "1.00": 12714
+        },
+        "Diverted": {
+          "0.00": 617017,
+          "1.00": 2008
+        }
+      }
+    },
+    {
+      "archivo": "On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2024_9.zip",
+      "filas_originales": 582622,
+      "filas_muestra": 12000,
+      "valores_objetivo": {
+        "ArrDel15": {
+          "0.00": 488584,
+          "1.00": 89678,
+          "VACIO": 4360
+        },
+        "Cancelled": {
+          "0.00": 579123,
+          "1.00": 3499
+        },
+        "Diverted": {
+          "0.00": 581761,
+          "1.00": 861
+        }
+      }
+    }
+  ]
+}

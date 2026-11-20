@@ -1,0 +1,23 @@
+{
+  "entrada": "datos_procesados_bts\\muestra_bts_2024_sin_limpiar.csv",
+  "salida": "datos_procesados_bts\\vuelos_2024_limpios.csv",
+  "estadisticas": {
+    "filas_entrada": 144000,
+    "filas_conservadas": 144000,
+    "ArrDel15_0": 112204,
+    "Cancelled_0": 142002,
+    "Diverted_0": 143662,
+    "ArrDel15_1": 29460,
+    "ArrDel15_vacio": 2336,
+    "Cancelled_1": 1998,
+    "Diverted_1": 338
+  },
+  "descartes": {},
+  "notas": [
+    "ArrDel15 vacío es válido para vuelos cancelados/desviados; no se interpreta como cero.",
+    "No usar ArrDel15, Cancelled ni Diverted entre sí como características predictoras.",
+    "Distance conserva la unidad original del BTS: millas.",
+    "El CSV resultante es una muestra mensual; no representa automáticamente todos los años.",
+    "Los registros eliminados por validaciones deben revisarse antes de entrenar si son numerosos."
+  ]
+}
