@@ -1,0 +1,207 @@
+{
+  "variables": [
+    "porcentaje_retrasados",
+    "promedio_minutos_retraso",
+    "porcentaje_cancelados",
+    "porcentaje_desviados"
+  ],
+  "configuracion": {
+    "metric": "euclidean",
+    "algorithm": "auto",
+    "n_jobs": -1
+  },
+  "rango_eps": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.2,
+    1.3,
+    1.4,
+    1.5,
+    1.6,
+    1.7,
+    1.8,
+    1.9,
+    2.0
+  ],
+  "valores_min_samples": [
+    4,
+    8,
+    12,
+    16,
+    20
+  ],
+  "maximo_porcentaje_ruido": 30.0,
+  "evaluacion": "Métricas exactas sobre puntos agrupados; ruido reportado por separado",
+  "seleccion": "Suma de rangos de tres métricas y porcentaje de ruido, con igual peso; al menos dos clústeres y límite de ruido",
+  "resultados": [
+    {
+      "dataset": "rutas",
+      "agrupaciones": 8607,
+      "vuelos": 170638528,
+      "configuracion_inicial": {
+        "eps": 0.5,
+        "min_samples": 8
+      },
+      "configuracion_optimizada": {
+        "eps": 1.8,
+        "min_samples": 8
+      },
+      "comparacion": [
+        {
+          "etapa": "inicial",
+          "eps": 0.5,
+          "min_samples": 8,
+          "clusters_obtenidos": 4,
+          "puntos_agrupados": 7597,
+          "puntos_ruido": 1010,
+          "porcentaje_ruido": 11.734634599744394,
+          "silhouette": 0.0954802564671189,
+          "calinski_harabasz": 48.96733639858816,
+          "davies_bouldin": 0.7427789456245555
+        },
+        {
+          "etapa": "optimizado",
+          "eps": 1.8,
+          "min_samples": 8,
+          "clusters_obtenidos": 2,
+          "puntos_agrupados": 8557,
+          "puntos_ruido": 50,
+          "porcentaje_ruido": 0.5809225049378413,
+          "silhouette": 0.7716528095102593,
+          "calinski_harabasz": 261.2067857063101,
+          "davies_bouldin": 0.27093992402726425
+        }
+      ],
+      "tiempo_segundos": 165.98
+    },
+    {
+      "dataset": "destinos_dias",
+      "agrupaciones": 2704,
+      "vuelos": 170742909,
+      "configuracion_inicial": {
+        "eps": 0.5,
+        "min_samples": 8
+      },
+      "configuracion_optimizada": {
+        "eps": 2.0,
+        "min_samples": 4
+      },
+      "comparacion": [
+        {
+          "etapa": "inicial",
+          "eps": 0.5,
+          "min_samples": 8,
+          "clusters_obtenidos": 5,
+          "puntos_agrupados": 2062,
+          "puntos_ruido": 642,
+          "porcentaje_ruido": 23.742603550295858,
+          "silhouette": 0.2729545611878926,
+          "calinski_harabasz": 51.03167406167029,
+          "davies_bouldin": 0.6998831443841684
+        },
+        {
+          "etapa": "optimizado",
+          "eps": 2.0,
+          "min_samples": 4,
+          "clusters_obtenidos": 2,
+          "puntos_agrupados": 2692,
+          "puntos_ruido": 12,
+          "porcentaje_ruido": 0.4437869822485207,
+          "silhouette": 0.8292501625920765,
+          "calinski_harabasz": 242.31637499871553,
+          "davies_bouldin": 0.19135027142425085
+        }
+      ],
+      "tiempo_segundos": 12.65
+    },
+    {
+      "dataset": "rutas_aerolinea",
+      "agrupaciones": 24608,
+      "vuelos": 170200337,
+      "configuracion_inicial": {
+        "eps": 0.5,
+        "min_samples": 8
+      },
+      "configuracion_optimizada": {
+        "eps": 1.8,
+        "min_samples": 8
+      },
+      "comparacion": [
+        {
+          "etapa": "inicial",
+          "eps": 0.5,
+          "min_samples": 8,
+          "clusters_obtenidos": 2,
+          "puntos_agrupados": 22988,
+          "puntos_ruido": 1620,
+          "porcentaje_ruido": 6.583224967490247,
+          "silhouette": 0.5659485356604425,
+          "calinski_harabasz": 73.37268153445095,
+          "davies_bouldin": 0.37824352483962975
+        },
+        {
+          "etapa": "optimizado",
+          "eps": 1.8,
+          "min_samples": 8,
+          "clusters_obtenidos": 2,
+          "puntos_agrupados": 24543,
+          "puntos_ruido": 65,
+          "porcentaje_ruido": 0.26414174252275685,
+          "silhouette": 0.810167493322527,
+          "calinski_harabasz": 346.98778548001366,
+          "davies_bouldin": 0.23277394525343914
+        }
+      ],
+      "tiempo_segundos": 636.26
+    },
+    {
+      "dataset": "destinos_dias_aerolinea",
+      "agrupaciones": 20481,
+      "vuelos": 170385841,
+      "configuracion_inicial": {
+        "eps": 0.5,
+        "min_samples": 8
+      },
+      "configuracion_optimizada": {
+        "eps": 1.9,
+        "min_samples": 4
+      },
+      "comparacion": [
+        {
+          "etapa": "inicial",
+          "eps": 0.5,
+          "min_samples": 8,
+          "clusters_obtenidos": 4,
+          "puntos_agrupados": 18833,
+          "puntos_ruido": 1648,
+          "porcentaje_ruido": 8.046482105365948,
+          "silhouette": 0.31648801271392785,
+          "calinski_harabasz": 46.470432522017454,
+          "davies_bouldin": 0.5432342133304033
+        },
+        {
+          "etapa": "optimizado",
+          "eps": 1.9,
+          "min_samples": 4,
+          "clusters_obtenidos": 2,
+          "puntos_agrupados": 20447,
+          "puntos_ruido": 34,
+          "porcentaje_ruido": 0.1660075191641033,
+          "silhouette": 0.8395975992866042,
+          "calinski_harabasz": 309.05821028478596,
+          "davies_bouldin": 0.17722436818500606
+        }
+      ],
+      "tiempo_segundos": 285.82
+    }
+  ]
+}
