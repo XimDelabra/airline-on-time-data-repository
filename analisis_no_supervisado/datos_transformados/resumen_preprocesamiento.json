@@ -1,0 +1,271 @@
+{
+  "archivos_procesados": 319,
+  "total_vuelos": 170760824,
+  "periodo_inicio": "2000-01",
+  "periodo_fin": "2026-07",
+  "umbral_minimo": 200,
+  "variables_modelo": [
+    "porcentaje_retrasados",
+    "promedio_minutos_retraso",
+    "porcentaje_cancelados",
+    "porcentaje_desviados"
+  ],
+  "agrupaciones": {
+    "rutas": {
+      "grupos_totales": 12177,
+      "grupos_conservados": 8607,
+      "grupos_excluidos": 3570,
+      "vuelos_totales": 170760824,
+      "vuelos_conservados": 170638528,
+      "motivos_exclusion": {
+        "menos_de_200_vuelos": 3570
+      },
+      "estadisticas": {
+        "porcentaje_retrasados": {
+          "count": 8607.0,
+          "mean": 20.03828117801081,
+          "std": 5.959367452370596,
+          "min": 0.7547169811320755,
+          "25%": 16.060900641412736,
+          "50%": 19.48005698005698,
+          "75%": 23.283717276742557,
+          "max": 68.29268292682927
+        },
+        "promedio_minutos_retraso": {
+          "count": 8607.0,
+          "mean": 63.0288126256085,
+          "std": 16.840869484995565,
+          "min": 24.0,
+          "25%": 51.88277483124398,
+          "50%": 59.90237242277726,
+          "75%": 70.11095170164249,
+          "max": 231.14814814814815
+        },
+        "porcentaje_cancelados": {
+          "count": 8607.0,
+          "mean": 2.107457662834019,
+          "std": 1.5579224249611963,
+          "min": 0.0,
+          "25%": 1.110070432114757,
+          "50%": 1.7341040462427746,
+          "75%": 2.7057428835555632,
+          "max": 22.20203488372093
+        },
+        "porcentaje_desviados": {
+          "count": 8607.0,
+          "mean": 0.3361746745242008,
+          "std": 0.507715448408563,
+          "min": 0.0,
+          "25%": 0.12877211759205212,
+          "50%": 0.23255813953488372,
+          "75%": 0.3931668878057804,
+          "max": 22.790697674418606
+        }
+      },
+      "media_scaler": {
+        "porcentaje_retrasados": 20.03828117801081,
+        "promedio_minutos_retraso": 63.0288126256085,
+        "porcentaje_cancelados": 2.107457662834019,
+        "porcentaje_desviados": 0.3361746745242008
+      },
+      "escala_scaler": {
+        "porcentaje_retrasados": 5.959021249247617,
+        "promedio_minutos_retraso": 16.839891132568734,
+        "porcentaje_cancelados": 1.557831919112515,
+        "porcentaje_desviados": 0.5076859532188086
+      }
+    },
+    "destinos_dias": {
+      "grupos_totales": 2943,
+      "grupos_conservados": 2704,
+      "grupos_excluidos": 239,
+      "vuelos_totales": 170760824,
+      "vuelos_conservados": 170742909,
+      "motivos_exclusion": {
+        "menos_de_200_vuelos": 239
+      },
+      "estadisticas": {
+        "porcentaje_retrasados": {
+          "count": 2704.0,
+          "mean": 19.276680256219855,
+          "std": 4.2838504707635385,
+          "min": 3.225806451612903,
+          "25%": 16.705003216315685,
+          "50%": 19.322246560193946,
+          "75%": 21.978969397637258,
+          "max": 40.495049504950494
+        },
+        "promedio_minutos_retraso": {
+          "count": 2704.0,
+          "mean": 62.18203618904986,
+          "std": 15.1850292298432,
+          "min": 23.525,
+          "25%": 54.09575807951837,
+          "50%": 58.73569538900508,
+          "75%": 64.77253071661713,
+          "max": 197.3939393939394
+        },
+        "porcentaje_cancelados": {
+          "count": 2704.0,
+          "mean": 2.4683126189814324,
+          "std": 1.6703307118970916,
+          "min": 0.0,
+          "25%": 1.6679558537716994,
+          "50%": 2.2049061810205277,
+          "75%": 2.8935326477929273,
+          "max": 25.25
+        },
+        "porcentaje_desviados": {
+          "count": 2704.0,
+          "mean": 0.3950528972767603,
+          "std": 0.42967103953140173,
+          "min": 0.0,
+          "25%": 0.1639022498078961,
+          "50%": 0.2529051643618211,
+          "75%": 0.4471776135929983,
+          "max": 4.464285714285714
+        }
+      },
+      "media_scaler": {
+        "porcentaje_retrasados": 19.276680256219855,
+        "promedio_minutos_retraso": 62.18203618904986,
+        "porcentaje_cancelados": 2.4683126189814324,
+        "porcentaje_desviados": 0.3950528972767603
+      },
+      "escala_scaler": {
+        "porcentaje_retrasados": 4.28305826539925,
+        "promedio_minutos_retraso": 15.182221087566791,
+        "porcentaje_cancelados": 1.6700218204082002,
+        "porcentaje_desviados": 0.42959158117852053
+      }
+    },
+    "rutas_aerolinea": {
+      "grupos_totales": 36484,
+      "grupos_conservados": 24608,
+      "grupos_excluidos": 11876,
+      "vuelos_totales": 170760824,
+      "vuelos_conservados": 170200337,
+      "motivos_exclusion": {
+        "menos_de_200_vuelos": 11876
+      },
+      "estadisticas": {
+        "porcentaje_retrasados": {
+          "count": 24608.0,
+          "mean": 20.582231670117416,
+          "std": 7.056919953351229,
+          "min": 0.7547169811320755,
+          "25%": 15.671641791044776,
+          "50%": 19.816285117774193,
+          "75%": 24.567266141421037,
+          "max": 68.43853820598007
+        },
+        "promedio_minutos_retraso": {
+          "count": 24608.0,
+          "mean": 63.85021515324151,
+          "std": 17.41690200627977,
+          "min": 21.0,
+          "25%": 51.46218285270917,
+          "50%": 60.9013325608343,
+          "75%": 72.63155774189588,
+          "max": 231.14814814814815
+        },
+        "porcentaje_cancelados": {
+          "count": 24608.0,
+          "mean": 2.2438600190257607,
+          "std": 1.728421720476485,
+          "min": 0.0,
+          "25%": 1.0646714850583356,
+          "50%": 1.8328492622871262,
+          "75%": 2.9411764705882355,
+          "max": 22.20203488372093
+        },
+        "porcentaje_desviados": {
+          "count": 24608.0,
+          "mean": 0.2839821715794646,
+          "std": 0.4129648276535583,
+          "min": 0.0,
+          "25%": 0.08733266968019529,
+          "50%": 0.2,
+          "75%": 0.3578084293722493,
+          "max": 22.790697674418606
+        }
+      },
+      "media_scaler": {
+        "porcentaje_retrasados": 20.582231670117416,
+        "promedio_minutos_retraso": 63.85021515324151,
+        "porcentaje_cancelados": 2.2438600190257607,
+        "porcentaje_desviados": 0.2839821715794646
+      },
+      "escala_scaler": {
+        "porcentaje_retrasados": 7.056776565191928,
+        "promedio_minutos_retraso": 17.416548115696354,
+        "porcentaje_cancelados": 1.7283866010177644,
+        "porcentaje_desviados": 0.41295643670299
+      }
+    },
+    "destinos_dias_aerolinea": {
+      "grupos_totales": 25468,
+      "grupos_conservados": 20481,
+      "grupos_excluidos": 4987,
+      "vuelos_totales": 170760824,
+      "vuelos_conservados": 170385841,
+      "motivos_exclusion": {
+        "menos_de_200_vuelos": 4987
+      },
+      "estadisticas": {
+        "porcentaje_retrasados": {
+          "count": 20481.0,
+          "mean": 20.849148551184516,
+          "std": 5.356915492229777,
+          "min": 3.233256351039261,
+          "25%": 17.150395778364118,
+          "50%": 20.603015075376884,
+          "75%": 24.175824175824175,
+          "max": 52.55102040816327
+        },
+        "promedio_minutos_retraso": {
+          "count": 20481.0,
+          "mean": 58.43429676007509,
+          "std": 13.16912956301529,
+          "min": 23.525,
+          "25%": 49.486666666666665,
+          "50%": 56.698113207547166,
+          "75%": 64.9498355263158,
+          "max": 242.25581395348837
+        },
+        "porcentaje_cancelados": {
+          "count": 20481.0,
+          "mean": 2.1639513092249336,
+          "std": 1.4410939916580068,
+          "min": 0.0,
+          "25%": 1.187214611872146,
+          "50%": 1.9125683060109289,
+          "75%": 2.848575712143928,
+          "max": 25.25
+        },
+        "porcentaje_desviados": {
+          "count": 20481.0,
+          "mean": 0.2699790700763458,
+          "std": 0.34407220873370015,
+          "min": 0.0,
+          "25%": 0.0985144028056902,
+          "50%": 0.19485580670303976,
+          "75%": 0.3408922484066993,
+          "max": 9.777777777777779
+        }
+      },
+      "media_scaler": {
+        "porcentaje_retrasados": 20.849148551184516,
+        "promedio_minutos_retraso": 58.43429676007509,
+        "porcentaje_cancelados": 2.1639513092249336,
+        "porcentaje_desviados": 0.2699790700763458
+      },
+      "escala_scaler": {
+        "porcentaje_retrasados": 5.356784712949404,
+        "promedio_minutos_retraso": 13.168808062836707,
+        "porcentaje_cancelados": 1.4410588099876123,
+        "porcentaje_desviados": 0.3440638088409036
+      }
+    }
+  }
+}
